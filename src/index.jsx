@@ -8,6 +8,7 @@ import './index.css'
 
 const root = createRoot(document.getElementById('root'))
 
+// eslint-disable-next-line react-refresh/only-export-components
 function App() {
     return (
         <div className='bg-secondary text-white w-80 my-20 m-auto rounded-lg'>
