@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+    @apply bg-primary;
+}
+
+@layer components {
+    .social-media-icons {
+        @apply w-7 m-3;
+    }
+
+    .custom-btn {
+        @apply w-60 px-4 py-1 rounded font-bold mx-2 flex justify-center;
+    }
+}
