@@ -12,7 +12,7 @@ const CopyEmail = () => {
         showConfirmButton: false,
         timer: 2000,
         position: 'top-end',
-        width: '500px',
+        width: '420px',
         backdrop: false,
     });
 }
