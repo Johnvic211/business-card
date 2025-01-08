@@ -7,11 +7,21 @@ body {
 }
 
 @layer components {
-    .social-media-icons {
-        @apply w-7 m-3;
+    .custom-btn.bg-white:hover {
+        @apply bg-gray-300;
     }
 
-    .custom-btn {
-        @apply w-60 px-4 py-1 rounded font-bold mx-2 flex justify-center;
+    .custom-btn.bg-blue-500:hover {
+        @apply bg-blue-700;
+    }
+
+    .icons {
+        @apply w-7 m-3;
+        filter: grayscale(100%);
+        transition: filter 0.3s ease-in-out;
+    }
+
+    .icons:hover {
+        filter: grayscale(0%) brightness(1.2); /* Remove grayscale and add brightness */
     }
 }
