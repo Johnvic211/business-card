@@ -19,7 +19,7 @@ const socialLinks = [
 
 function Footer() {
     return (
-        <div className="bg-footer py-1 mt-8 flex justify-center items-center rounded-b-lg">
+        <div className="bg-tertiary py-1 mt-8 flex justify-center items-center rounded-b-lg">
             {socialLinks.map((social, index) => (
                 <Icon key={index} src={social.src} alt={social.alt} link={social.link} />
             ))}
